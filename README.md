@@ -1,7 +1,7 @@
 # seal-streamparser
 
-[![Circle CI](https://circleci.com/gh/plossys/seal-streamparser.svg?style=svg&circle-token=1776f32c60ecfa0403ba145ddd56492e3f0e3ad4)](https://circleci.com/gh/plossys/seal-streamparser)
-[![Build status](https://ci.appveyor.com/api/projects/status/138lnaf1vgqi92qw?svg=true)](https://ci.appveyor.com/project/Plossys/seal-streamparser)
+[![CircleCI](https://circleci.com/gh/sealsystems/seal-streamparser.svg?style=svg)](https://circleci.com/gh/sealsystems/seal-streamparser)
+[![Appveyor](https://ci.appveyor.com/api/projects/status/phee47k8hhmw1x5l?svg=true)](https://ci.appveyor.com/project/Plossys/seal-streamparser)
 
 seal-streamparser is a generic stream parser for Node.js.
 
