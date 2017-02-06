@@ -57,6 +57,6 @@ module.exports = ready;
 
 To build this module use [roboter](https://www.npmjs.com/package/roboter).
 
-'''bash
+```bash
 $ bot
-'''
+```
