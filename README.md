@@ -1,24 +1,24 @@
-# seal-streamparser
+# @sealsystems/streamparser
 
-[![CircleCI](https://circleci.com/gh/sealsystems/seal-streamparser.svg?style=svg)](https://circleci.com/gh/sealsystems/seal-streamparser)
-[![Appveyor](https://ci.appveyor.com/api/projects/status/phee47k8hhmw1x5l?svg=true)](https://ci.appveyor.com/project/Plossys/seal-streamparser)
+[![CircleCI](https://circleci.com/gh/sealsystems/node-streamparser.svg?style=svg)](https://circleci.com/gh/sealsystems/node-streamparser)
+[![AppVeyor](https://ci.appveyor.com/api/projects/status/4rbtppfgc4cdoc98?svg=true)](https://ci.appveyor.com/project/Plossys/node-streamparser)
 
-seal-streamparser is a generic stream parser for Node.js.
+@sealsystems/streamparser is a generic stream parser for Node.js.
 
 This is module parses streams in a generic way. You can add your own transitions and emit events while the stream is parsed.
 
 ## Installation
 
 ```bash
-$ npm install seal-streamparser
+$ npm install @sealsystems/streamparser
 ```
 
 ## Quick start
 
-First you need to integrate seal-streamparser into your application.
+First you need to integrate @sealsystems/streamparser into your application.
 
 ```javascript
-const StreamParser = require('seal-streamparser');
+const StreamParser = require('@sealsystems/streamparser');
 ```
 
 To use the generic stream parser you may use this code block. Put all your transition code into a directory `transitions` and require all of them with `requireAll`. Tell the stream parser which state to start with.
@@ -27,7 +27,7 @@ To use the generic stream parser you may use this code block. Put all your trans
 const path = require('path');
 
 const requireAll = require('require-all');
-const StreamParser = require('seal-streamparser');
+const StreamParser = require('@sealsystems/streamparser');
 
 const transitions = requireAll(path.join(__dirname, 'transitions'));
 
