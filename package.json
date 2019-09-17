@@ -28,10 +28,9 @@
     "require-all": "3.0.0"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.3.5",
-    "@sealsystems/mocha": "3.0.1",
-    "@sealsystems/semantic-release": "4.0.2",
-    "assertthat": "3.1.0",
+    "@sealsystems/eslint-config-es": "3.5.3",
+    "@sealsystems/mocha": "4.1.1",
+    "@sealsystems/semantic-release": "4.0.12",
     "nyc": "14.1.1"
   },
   "release": {
