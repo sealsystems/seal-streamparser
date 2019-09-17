@@ -55,8 +55,8 @@ module.exports = ready;
 
 ## Running the build
 
-To build this module use [roboter](https://www.npmjs.com/package/roboter).
+To build this module use the bot-command:
 
 ```bash
-$ bot
+$ npm run bot
 ```
