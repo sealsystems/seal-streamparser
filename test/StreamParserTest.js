@@ -12,9 +12,8 @@ suite('StreamParser', () => {
   test('throws an error when no options are specified.', (done) => {
     assert
       .that(() => {
-        /* eslint-disable no-new */
+        // eslint-disable-next-line no-new
         new StreamParser();
-        /* eslint-enable no-new */
       })
       .is.throwing();
     done();
@@ -23,9 +22,8 @@ suite('StreamParser', () => {
   test('throws an error when no transitions are specified.', (done) => {
     assert
       .that(() => {
-        /* eslint-disable no-new */
+        // eslint-disable-next-line no-new
         new StreamParser({});
-        /* eslint-enable no-new */
       })
       .is.throwing();
     done();
@@ -34,9 +32,8 @@ suite('StreamParser', () => {
   test('throws and error when no startWithState is specified.', (done) => {
     assert
       .that(() => {
-        /* eslint-disable no-new */
+        // eslint-disable-next-line no-new
         new StreamParser({ transitions });
-        /* eslint-enable no-new */
       })
       .is.throwing();
     done();
