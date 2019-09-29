@@ -21,7 +21,7 @@
     "url": "https://github.com/sealsystems/node-streamparser.git"
   },
   "dependencies": {
-    "require-all": "2.2.0"
+    "require-all": "3.0.0"
   },
   "devDependencies": {
     "assertthat": "1.0.0",
