@@ -28,13 +28,12 @@
     "require-all": "3.0.0"
   },
   "devDependencies": {
-    "@sealsystems/eslint-config-es": "3.5.3",
+    "@sealsystems/eslint-config-es": "3.6.0",
     "@sealsystems/mocha": "4.1.1",
-    "@sealsystems/semantic-release": "4.0.12",
-    "nyc": "14.1.1"
+    "@sealsystems/semantic-release": "4.0.13"
   },
   "release": {
-    "extends": "@sealsystems/semantic-release-config/node-module"
+    "extends": "@sealsystems/semantic-release/node-module"
   },
   "publishConfig": {
     "access": "public"
