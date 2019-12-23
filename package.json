@@ -24,7 +24,7 @@
     "require-all": "2.2.0"
   },
   "devDependencies": {
-    "assertthat": "1.0.0",
+    "assertthat": "5.1.0",
     "eslint-config-seal": "0.0.9",
     "nyc": "15.0.0",
     "roboter": "0.16.0",
