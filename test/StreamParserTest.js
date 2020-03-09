@@ -10,29 +10,35 @@ const transitions = requireAll(path.join(__dirname, 'transitions'));
 
 suite('StreamParser', () => {
   test('throws an error when no options are specified.', (done) => {
-    assert.that(() => {
-      /* eslint-disable no-new */
-      new StreamParser();
-      /* eslint-enable no-new */
-    }).is.throwing();
+    assert
+      .that(() => {
+        /* eslint-disable no-new */
+        new StreamParser();
+        /* eslint-enable no-new */
+      })
+      .is.throwing();
     done();
   });
 
   test('throws an error when no transitions are specified.', (done) => {
-    assert.that(() => {
-      /* eslint-disable no-new */
-      new StreamParser({ });
-      /* eslint-enable no-new */
-    }).is.throwing();
+    assert
+      .that(() => {
+        /* eslint-disable no-new */
+        new StreamParser({});
+        /* eslint-enable no-new */
+      })
+      .is.throwing();
     done();
   });
 
   test('throws and error when no startWithState is specified.', (done) => {
-    assert.that(() => {
-      /* eslint-disable no-new */
-      new StreamParser({ transitions });
-      /* eslint-enable no-new */
-    }).is.throwing();
+    assert
+      .that(() => {
+        /* eslint-disable no-new */
+        new StreamParser({ transitions });
+        /* eslint-enable no-new */
+      })
+      .is.throwing();
     done();
   });
 
@@ -66,9 +72,11 @@ suite('StreamParser', () => {
 
       streamParser.write('\u0002LaserJ');
       streamParser.write('et\n');
-      assert.that(() => {
-        streamParser.write('too_much');
-      }).is.throwing();
+      assert
+        .that(() => {
+          streamParser.write('too_much');
+        })
+        .is.throwing();
     });
   });
 });
