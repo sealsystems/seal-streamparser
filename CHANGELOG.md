@@ -1,3 +1,14 @@
+## 1.1.2 (2020-03-09)
+
+### Chores
+
+
+#### Switched to github-actions. ([69f9ab4](https://github.com/sealsystems/node-streamparser/commit/69f9ab4))
+
+
+
+---
+
 ## 1.1.1 (2018-09-09)
 
 ### Bug Fixes
