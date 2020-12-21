@@ -1,3 +1,10 @@
+## 1.1.3 (2020-12-21)
+
+### Chores
+
+
+Trigger release ([9fef0ba](https://github.com/sealsystems/node-streamparser/commit/9fef0ba))
+
 ## 1.1.2 (2020-03-09)
 
 ### Chores
