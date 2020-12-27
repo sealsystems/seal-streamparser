@@ -22,7 +22,7 @@
   "main": "lib/StreamParser.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sealsystems/node-streamparser"
+    "url": "https://github.com/sealsystems/streamparser"
   },
   "dependencies": {
     "require-all": "2.2.0"
