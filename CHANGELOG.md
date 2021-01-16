@@ -1,3 +1,10 @@
+## 1.1.5 (2021-01-16)
+
+### Chores
+
+
+Update build config ([b7d34fe](https://github.com/sealsystems/node-streamparser/commit/b7d34fe))
+
 ## 1.1.4 (2020-12-26)
 
 ### Chores
